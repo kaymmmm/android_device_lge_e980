@@ -1,15 +1,18 @@
 [
  {
    "repository": "android_device_lge_gproj-common",
-   "target_path": "device/lge/gproj-common"
+   "target_path": "device/lge/gproj-common",
+   "branch": "cm-10.2"
  },
  {
    "repository": "lge-kernel-gproj",
-   "target_path": "kernel/lge/gproj"
+   "target_path": "kernel/lge/gproj",
+   "branch": "cm-10.2"
  },
  {
    "account": "TheMuppets",
    "repository": "proprietary_vendor_lge",
-   "target_path": "vendor/lge"
+   "target_path": "vendor/lge",
+   "branch": "cm-10.2"
  }
 ]
