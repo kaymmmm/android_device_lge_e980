@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "mrfeuss",
+    "repository":  "android_device_lge_e980",
+    "target_path": "device/lge/e980",
+    "revision":    "omni-4.4"
+  },
+  {
+    "remote":      "mrfeuss",
+    "repository":  "android_device_lge_gproj-common",
+    "target_path": "device/lge/gproj-common",
+    "revision":    "omni-4.4"
+  },
+  {
+    "remote":      "mrfeuss",
+    "repository":  "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision":    "omni-4.4"
+  },
+  {
+    "remote":      "mrfeuss",
+    "repository":  "lge-kernel-gproj",
+    "target_path": "kernel/lge/gproj",
+    "revision":    "omni-4.4"
+  }
+]
