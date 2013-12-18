@@ -12,7 +12,7 @@
     {
         "repository": "CyanogenMod/lge-kernel-gproj",
         "target_path": "kernel/lge/gproj",
-        "branch": "cm-10.2"
+        "branch": "cm-11.0"
     },
     {
         "repository": "TheMuppets/proprietary_vendor_lge",
