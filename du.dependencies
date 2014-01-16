@@ -20,7 +20,7 @@
   {
     "remote":      "TheMuppets",
     "repository":  "proprietary_vendor_lge",
-    "target_path": "proprietary/vendor/lge",
+    "target_path": "vendor/lge",
     "revision":    "cm-11.0"
   }
 ]
