@@ -1,1 +1,1 @@
-add_lunch_combo du_e980-eng
+add_lunch_combo du_e980-userdebug
