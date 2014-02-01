@@ -14,13 +14,13 @@
 # limitations under the License.
 
 # Inherit Omni GSM telephony parts
-$(call inherit-product, vendor/du/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our omni product configuration
-$(call inherit-product, vendor/du/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
@@ -34,6 +34,11 @@ PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_MODEL := LG-E980
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geefhd_open_eu BUILD_FINGERPRINT=lge/geefhd_open_eu/geefhd:4.1.2/JZO54K/E98610b.1373081564:user/release-keys PRIVATE_BUILD_DESC="geefhd_open_eu-user 4.1.2 JZO54K E98610b.1373081564 release-keys"
+
+# Kernel inline build
+TARGET_KERNEL_CONFIG := cyanogenmod_e980_defconfig
+TARGET_VARIANT_CONFIG := cyanogenmod_e980_defconfig
+TARGET_SELINUX_CONFIG := cyanogenmod_e980_defconfig
 
 # Enable Torch
 PRODUCT_PACKAGES += Torch
