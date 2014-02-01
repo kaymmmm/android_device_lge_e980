@@ -28,15 +28,12 @@ $(call inherit-product, device/lge/e980/device.mk)
 
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := du_e980
+PRODUCT_NAME := omni_e980
 PRODUCT_DEVICE := e980
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_MODEL := LG-E980
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=737497 \
-    PRODUCT_NAME=geefhd_open_eu \
-    TARGET_BUILD_TYPE=user \
-    BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="geefhd_open_eu-user 4.1.2 JZO54K E98610b.1373081564 release-keys" \
-    BUILD_FINGERPRINT="lge/geefhd_open_eu/geefhd:4.1.2/JZO54K/E98610b.1373081564:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geefhd_open_eu BUILD_FINGERPRINT=lge/geefhd_open_eu/geefhd:4.1.2/JZO54K/E98610b.1373081564:user/release-keys PRIVATE_BUILD_DESC="geefhd_open_eu-user 4.1.2 JZO54K E98610b.1373081564 release-keys"
+
+# Enable Torch
+PRODUCT_PACKAGES += Torch

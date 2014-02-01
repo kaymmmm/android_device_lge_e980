@@ -1,1 +1,1 @@
-add_lunch_combo du_e980-userdebug
+add_lunch_combo omni_e980-userdebug

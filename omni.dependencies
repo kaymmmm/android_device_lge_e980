@@ -1,25 +1,19 @@
 [
   {
-    "remote":      "kaymmmm",
-    "repository":  "android_device_lge_e980",
-    "target_path": "device/lge/e980",
-    "revision":    "du4.4"
-  },
-  {
-    "remote":      "CyanogenMod",
+    "remote":      "cm",
     "repository":  "android_device_lge_gproj-common",
     "target_path": "device/lge/gproj-common",
     "revision":    "cm-11.0"
   },
   {
-    "remote":      "CyanogenMod",
+    "remote":      "cm",
     "repository":  "lge-kernel-gproj",
     "target_path": "kernel/lge/gproj",
     "revision":    "cm-11.0"
   },
   {
-    "remote":      "TheMuppets",
-    "repository":  "proprietary_vendor_lge",
+    "remote":      "github",
+    "repository":  "TheMuppets/proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "revision":    "cm-11.0"
   }
