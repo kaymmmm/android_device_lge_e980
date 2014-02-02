@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
 
 
 # Get the long list of APNs
-$(call inherit-product-if-exists, vendor/omni/config/gsm.mk)
+$(call inherit-product-if-exists, vendor/du/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)

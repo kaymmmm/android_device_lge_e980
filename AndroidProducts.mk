@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_e980.mk :=\
+    $(LOCAL_DIR)/du_e980.mk :=\
     $(LOCAL_DIR)/full_e980.mk
