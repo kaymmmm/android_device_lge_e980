@@ -70,7 +70,7 @@ BOARD_SEPOLICY_UNION := \
         ueventd.te \
         wpa.te
 
-TARGET_OTA_ASSERT_DEVICE := e986,e980,geefhd,e988,gkatt
+TARGET_OTA_ASSERT_DEVICE := e986,e980,geefhd,e988,gkatt,geefhd_att_us
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/gproj-common/loki
 
