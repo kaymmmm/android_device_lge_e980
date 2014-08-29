@@ -4,7 +4,7 @@
     "account": "kaymmmm",
     "repository": "android_device_lge_e980",
     "target_path": "device/lge/e980",
-    "revision": "kk4.4"
+    "revision": "kk4.4.4"
   },
   {
     "remote": "github",
